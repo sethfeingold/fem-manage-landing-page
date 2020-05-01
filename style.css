@@ -1,0 +1,60 @@
+:root {
+    /* ### Primary */
+
+    --bright-red: hsl(12, 88%, 59%);
+    --dark-blue: hsl(228, 39%, 23%);
+
+    /* ### Neutral */
+
+    --dark-grayish-blue: hsl(227, 12%, 61%);
+    --very-dark-blue: hsl(233, 12%, 13%);
+    --very-pale-red: hsl(13, 100%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 1em;
+}
+
+.hamburger-icon {
+    max-width: 100%;
+}
+
+.nav__list {
+    list-style-type: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.nav__item {
+    margin: 2em auto;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.intro-charts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.intro-img {
+    max-width: 100%;
+}
